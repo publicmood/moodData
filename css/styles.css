@@ -1,0 +1,61 @@
+@font-face {
+    src: url(/publicMoodNew/assets/fonts/Garet-Heavy.ttf);
+    font-family: Garet;
+  }
+
+.main{
+    padding-top: 10%;
+    margin: auto auto auto auto;
+    height: 80vh;
+}
+
+.title{
+    text-align: center;
+    padding-bottom: 15px;
+    font-family: Garet;
+    letter-spacing: 0.5px;
+}
+
+.faces{
+    display: block;
+    text-align: center;
+}
+
+.face{
+    width: 21%;
+    padding-left: 5px;
+    padding-right: 5px;
+}
+
+.modal{
+    width: 75%;
+    height: 75%;
+}
+
+.thankyou{
+    text-align: center;
+    padding-bottom: 20px;
+    font-family: Garet;
+    letter-spacing: 0.5px;
+}
+
+.moodIs{
+    text-align: center;
+    padding-bottom: 20px;
+    font-family: Garet;
+    letter-spacing: 0.5px;
+}
+
+.buildingMood{
+    margin: auto;
+    display: block;
+    text-align: center;
+}
+
+.closeBtn{
+    text-align: center;
+    font-family: Garet;
+    font-size: x-large;
+    letter-spacing: 0.5px;
+    padding-bottom: 5px;
+}

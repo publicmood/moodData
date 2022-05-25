@@ -1,0 +1,60 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!--Import Google Icon Font-->
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <!--Import materialize.css-->
+    <link type="text/css" rel="stylesheet" href="/publicMoodNew/css/materialize.min.css"  media="screen,projection"/>
+
+
+    <!--Let browser know website is optimized for mobile-->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+
+    <link rel="stylesheet" href="/publicMoodNew/css/styles.css">
+    <title>Public Mood</title>
+</head>
+<body>
+
+<section class="main">
+    <div class="titleContainer">
+        <h2 class="title">What Is Your Mood At The Moment?</h2>
+    </div>
+
+    <div class="faces">
+        <img class="face joy" data-mood="joy" src="/publicMoodNew/assets/joy.png" href="#modal1" alt="">
+        <img class="face love" data-mood="love" src="/publicMoodNew/assets/love.png" href="#modal1" alt="">
+        <img class="face fear" data-mood="fear" src="/publicMoodNew/assets/fear.png" href="#modal1" alt="">
+        <img class="face hate" data-mood="hate" src="/publicMoodNew/assets/hate.png" href="#modal1" alt="">
+    </div>
+
+</section>
+
+
+  <!-- Modal Structure -->
+  <div id="modal1" class="modal">
+    <div class="modal-content">
+      <h5 class="thankyou">Thank You For Letting Us Know.</h5>
+      <h3 class="moodIs">The Mood of the 
+          <br>
+        Roland Levinsky Building is</h3>
+        <div id="currentMoodContainer">
+
+        </div>
+      <!-- <img class="buildingMood joy" data-mood="joy" src="/assets/joy.png" alt="" width="25%"> -->
+    </div>
+    <div class="modal-footer">
+      <a href="#!" class="closeBtn modal-close waves-effect waves-green btn-flat btn-large">Close</a>
+    </div>
+  </div>
+
+      <script src="https://www.gstatic.com/firebasejs/8.10.0/firebase-app.js"></script>
+      <script src="https://www.gstatic.com/firebasejs/8.10.0/firebase-firestore.js"></script>
+        <script src="/publicMoodNew/js/firebase.js"></script>
+      <script src="/publicMoodNew/js/script.js"></script>
+      <script type="text/javascript" src="/publicMoodNew/js/materialize.min.js"></script>
+
+</body>
+</html>
